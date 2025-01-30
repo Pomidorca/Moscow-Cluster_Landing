@@ -14,11 +14,11 @@
                 <button><img src="/image/header/Button_sync.svg" alt="Reset"></button>
             </div>
             <div class="flex gap-x-6">
-                <button class="px-6 py-3 rounded-lg bg-Background text-PrimaryOrange text-lg leading-6 max-md:px-3 max-md:py-2 max-md:text-base" @click="goToLogin">Войти</button>
+                <a class="px-6 py-3 rounded-lg bg-Background text-PrimaryOrange text-lg leading-6 max-md:px-3 max-md:py-2 max-md:text-base" href="https://mpkmir.ru/my/auth/login">Войти</a>
                 <button @click="modalWindow = !modalWindow" class="lg:hidden"><img
                         :src="modalWindow ? '/image/header/close.svg' : '/image/header/Burger.svg'" class="max-lg:block"
                         alt="Burger"></button>
-                <button class="px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange max-lg:hidden" @click="goToRegister">Регистрация</button>
+                <a class="px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange max-lg:hidden" href="https://mpkmir.ru/my/auth/register">Регистрация</a>
             </div>
         </div>
         <div v-if="modalWindow" class="absolute right-0 bg-PrimaryOrange rounded-b-xl">
@@ -45,11 +45,4 @@ const list = store.links
 const modalWindow = ref(false);
 const router = useRouter();
 
-const goToLogin = () => {
-  router.push('/my/auth/login');
-};
-
-const goToRegister = () => {
-  router.push('/my/auth/register')
-}
 </script>
