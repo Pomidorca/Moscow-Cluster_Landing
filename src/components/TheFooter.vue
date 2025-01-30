@@ -6,16 +6,16 @@
             <h2 class="text-2xl text-white font-bold uppercase">Мир</h2>
             <ul class="mt-6 text-Background leading-5 max-md:text-xl">
                 <li>МПК "МИР"</li>
-                <li>ИНН 6142028115</li>
-                <li>ОГРН 1226100027350</li>
+                <li>ИНН 6164130352</li>
+                <li>ОГРН 1206100001249</li>
             </ul>
             <ul class="mt-6 text-Background leading-5 max-md:text-xl">
                 <p>Банк:</p>
-                <li>БИК: 454675</li>
-                <li>к/с №: 6142028115</li>
-                <li>Счёт №: 6142028115</li>
+                <li>БИК: 046015207</li>
+                <li>к/с №: 30101810500000000207</li>
+                <li>Счёт №: 40703810226270000043</li>
             </ul>
-            <p class="mt-6 text-Background leading-5">Адрес 6142028115</p>
+            <p class="mt-6 text-Background leading-5">Адрес 6164130352</p>
         </div>
 
         <div>
