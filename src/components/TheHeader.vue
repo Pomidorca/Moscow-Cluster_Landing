@@ -28,8 +28,8 @@
                         <router-link :to="item.path">{{ item.title }}</router-link>
                     </button>
                 </ul>
-                <button
-                    class="w-full px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange active:bg-white">Регистрация</button>
+                <a
+                    class="w-full px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange active:bg-white" href="https://mpkmir.ru/my/auth/register">Регистрация</a>
             </div>
         </div>
     </div>
