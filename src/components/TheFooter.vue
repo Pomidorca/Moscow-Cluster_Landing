@@ -15,7 +15,7 @@
                 <li>к/с №: 30101810500000000207</li>
                 <li>Счёт №: 40703810226270000043</li>
             </ul>
-            <p class="mt-6 text-Background leading-5">Адрес 6164130352</p>
+            <p class="mt-6 text-Background leading-5">Адрес ФИЛИАЛ "РОСТОВСКИЙ" АО "АЛЬФА-БАНК"</p>
         </div>
 
         <div>
@@ -29,15 +29,12 @@
             <h2 class="text-2xl text-white font-bold uppercase">Контакты</h2>
             <ul class="flex flex-col gap-y-4 mt-6">
                 <li><a class="flex items-center gap-x-3 text-Background leading-5" href="#"><img
-                            src="/image/footer/telegram.svg" alt="Telegram">Ссылка</a></li>
+                            src="/image/footer/telegram.svg" alt="Telegram">https://t.me/mpkuniverse</a></li>
                 <li><a class="flex items-center gap-x-3 text-Background leading-5" href="#"><img
-                            src="/image/footer/Phone.svg" alt="Telephone">Номер
-                        телефона</a></li>
+                            src="/image/footer/Phone.svg" alt="Telephone">+79094230110</a></li>
                 <li><a class="flex items-center gap-x-3 text-Background leading-5" href="#"><img
-                            src="/image/footer/Letter.svg" alt="e-mail">e-mail</a>
+                            src="/image/footer/Letter.svg" alt="e-mail">universe.incc@gmail.com</a>
                 </li>
-                <li><a class="flex items-center gap-x-3 text-Background leading-5" href="#"><img
-                            src="/image/footer/Chat.svg" alt="e-mail">e-mail</a></li>
             </ul>
         </div>
     </div>
