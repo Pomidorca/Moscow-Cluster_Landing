@@ -2,7 +2,7 @@
     <div class="mx-auto">
         <div class="flex justify-between items-center bg-PrimaryOrange px-10 py-8 w-full max-md:py-4">
             <div>
-                <router-link class="text-Background text-4xl font-bold max-md:text-2xl" to="/">Logo</router-link>
+                <router-link class="text-Background text-4xl font-bold max-md:text-2xl" to="/"><img src="/image/header/logo-icon.svg" width="70x" height="70px"></img></router-link>
             </div>
             <div class="flex items-center gap-x-6 bg-Background pl-6 pr-2 py-2 rounded-[48px] ml-40 max-lg:hidden">
                 <div class="flex items-center gap-x-6">
