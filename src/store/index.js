@@ -10,7 +10,7 @@ export const useLinkStore = defineStore('links', {
             },
             {
                 id: 2,
-                title: 'Стать пайщиком',
+                title: 'Документы',
                 path: 'GetProfessionPage'
             },
             {

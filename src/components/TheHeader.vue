@@ -18,7 +18,7 @@
                 <button @click="modalWindow = !modalWindow" class="lg:hidden"><img
                         :src="modalWindow ? '/image/header/close.svg' : '/image/header/Burger.svg'" class="max-lg:block"
                         alt="Burger"></button>
-                <a class="px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange max-lg:hidden" href="https://mpkmir.ru/my/auth/register">Регистрация</a>
+                <a class="px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange max-lg:hidden" href="https://mpkmir.ru/my/auth/register">Стать пайщиком</a>
             </div>
         </div>
         <div v-if="modalWindow" class="absolute right-0 bg-PrimaryOrange rounded-b-xl">
@@ -29,7 +29,7 @@
                     </button>
                 </ul>
                 <a
-                    class="w-full px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange active:bg-white" href="https://mpkmir.ru/my/auth/register">Регистрация</a>
+                    class="w-full px-6 py-3 rounded-lg border border-Background text-Background text-lg leading-6 hover:bg-Background hover:duration-300 hover:text-PrimaryOrange active:bg-white" href="https://mpkmir.ru/my/auth/register">Стать пайщиком</a>
             </div>
         </div>
     </div>
